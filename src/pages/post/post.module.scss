@@ -1,0 +1,46 @@
+.hero {
+  background-color: #1a1d23;
+  img {
+    width: 100%;
+  }
+}
+
+.content {
+  color: #F8F8F8;
+  strong {
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: -0.5px;
+    font-weight: bold;
+  }
+}
+
+.info {
+  display: grid;
+  margin-top: 26px;
+  grid-template-columns: repeat(3, max-content);
+  gap: 24px;
+  color: #BBBBBB;
+  margin-bottom: 66px;
+
+  span, time {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    gap: 8px;
+    align-items: center;
+  }
+}
+
+.body {
+  color: #F8F8F8;
+  line-height: 140%;
+  strong {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  p {
+    color: #BBBBBB;
+    text-align: justify;
+  }
+}

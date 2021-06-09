@@ -1,0 +1,21 @@
+.container {
+  background-color: #1a1d23;
+  min-height: 105px;
+  padding: 0 25.694vw;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.header {
+  transition: filter 0.2s;
+  &:hover {
+    cursor: pointer;
+    filter: brightness(0.8);
+  }
+  
+  img {
+    width: 172.0208px;
+  }
+}
